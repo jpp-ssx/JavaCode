@@ -1,0 +1,12 @@
+server:
+  port: 8300
+eureka:
+  instance:
+    homename: eureka8300.com #指定eureka主机
+  client:
+    register-with-eureka: false #指定当前主机是否需要向注册中心注册（不需要注册，因为当前主机是server,不是client）
+    fetch-registry: false #指定当前主机是需要获取注册信息（不需要注册，因为当前主机是server,不是client）
+    service-url: #暴露服务中心地址
+     defaultZone: http://eureka8100.com:8100/eureka,http://eureka8200.com:8200/eureka,http://eureka8300.com:8300/eureka
+
+  

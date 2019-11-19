@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-primary/01-primary.iml" filepath="$PROJECT_DIR$/01-primary/01-primary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-webflux/01-webflux.iml" filepath="$PROJECT_DIR$/01-webflux/01-webflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-asynServlet/02-asynServlet.iml" filepath="$PROJECT_DIR$/02-asynServlet/02-asynServlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-lambda/02-lambda.iml" filepath="$PROJECT_DIR$/02-lambda/02-lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springboot.iml" filepath="$PROJECT_DIR$/.idea/springboot.iml" />
+    </modules>
+  </component>
+</project>

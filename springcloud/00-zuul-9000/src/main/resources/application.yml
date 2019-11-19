@@ -1,0 +1,17 @@
+server:
+  port: 9000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka
+spring:
+  application:
+    name: kkbmsc-zuul-depart
+#    设置zuul的路由规则
+zuul:
+  #  设置微服务名称的替换规则
+  routes:
+    #    指定要被替换的微服务的名称
+    somedepart.serviceId: kkbmsc-consumer-depart
+    #    指定替换使用的路径
+    somedepart.path: /condep/**

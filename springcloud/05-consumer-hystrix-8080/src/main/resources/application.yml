@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: kkbmsc-consumer-depart #指定微服务对外暴露的名称
+eureka:
+  client:
+    service-url: #暴露服务中心地址
+      #      defaultZone: http://eureka8100.com:8100/eureka,http://eureka8210.com:8200/eureka,http://eureka8300.com:8300/eureka
+      defaultZone: http://localhost:8000/eureka
