@@ -1,0 +1,49 @@
+#配置dev环境
+server:
+  port: 7070
+spring:
+  profiles: dev
+  application:
+    name: abcmsc-consumer-depart #指定微服务对外暴露的名称
+eureka:
+  client:
+    service-url: #暴露服务中心地址
+      defaultZone: http://eureka8400.com:8400/eureka
+#      开启feign对hystrix的支持
+feign:
+  hystrix:
+    enabled: true
+#    设置服务熔断时限 默认为5000ms
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+
+---
+#配置test环境
+server:
+  port: 9090
+spring:
+  profiles: test
+  application:
+    name: abcmsc-consumer-depart #指定微服务对外暴露的名称
+eureka:
+  client:
+    service-url: #暴露服务中心地址
+      defaultZone: http://eureka8500.com:8500/eureka
+#      开启feign对hystrix的支持
+feign:
+  hystrix:
+    enabled: true
+#    设置服务熔断时限 默认为5000ms
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+

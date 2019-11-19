@@ -15,3 +15,6 @@ zuul:
     somedepart.serviceId: kkbmsc-consumer-depart
     #    指定替换使用的路径
     somedepart.path: /condep/**
+  #    指定要忽略的微服务
+  ignored-services: kkbmsc-consumer-depart
+  prefix: /depart

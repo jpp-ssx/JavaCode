@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/00-configserver-9999/00-configserver-9999.iml" filepath="$PROJECT_DIR$/00-configserver-9999/00-configserver-9999.iml" />
       <module fileurl="file://$PROJECT_DIR$/00-eruekaserver-8000/00-eruekaserver-8000.iml" filepath="$PROJECT_DIR$/00-eruekaserver-8000/00-eruekaserver-8000.iml" />
       <module fileurl="file://$PROJECT_DIR$/00-eruekaserver-8100/00-eruekaserver-8100.iml" filepath="$PROJECT_DIR$/00-eruekaserver-8100/00-eruekaserver-8100.iml" />
       <module fileurl="file://$PROJECT_DIR$/00-eruekaserver-8200/00-eruekaserver-8200.iml" filepath="$PROJECT_DIR$/00-eruekaserver-8200/00-eruekaserver-8200.iml" />
       <module fileurl="file://$PROJECT_DIR$/00-eruekaserver-8300/00-eruekaserver-8300.iml" filepath="$PROJECT_DIR$/00-eruekaserver-8300/00-eruekaserver-8300.iml" />
+      <module fileurl="file://$PROJECT_DIR$/00-eurekaserver-config/00-eurekaserver-config.iml" filepath="$PROJECT_DIR$/00-eurekaserver-config/00-eurekaserver-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/00-zuul-9000/00-zuul-9000.iml" filepath="$PROJECT_DIR$/00-zuul-9000/00-zuul-9000.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-consumer-8080/01-consumer-8080.iml" filepath="$PROJECT_DIR$/01-consumer-8080/01-consumer-8080.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-provider-8081/01-provider-8081.iml" filepath="$PROJECT_DIR$/01-provider-8081/01-provider-8081.iml" />
@@ -13,9 +15,11 @@
       <module fileurl="file://$PROJECT_DIR$/02-provider-8081/02-provider-8081.iml" filepath="$PROJECT_DIR$/02-provider-8081/02-provider-8081.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-provider-8082/02-provider-8082.iml" filepath="$PROJECT_DIR$/02-provider-8082/02-provider-8082.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-provider-8083/02-provider-8083.iml" filepath="$PROJECT_DIR$/02-provider-8083/02-provider-8083.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-provider-config/02-provider-config.iml" filepath="$PROJECT_DIR$/02-provider-config/02-provider-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-consumer-feign-8080/03-consumer-feign-8080.iml" filepath="$PROJECT_DIR$/03-consumer-feign-8080/03-consumer-feign-8080.iml" />
       <module fileurl="file://$PROJECT_DIR$/05-consumer-feign-hystrix-8080/05-consumer-feign-hystrix-8080.iml" filepath="$PROJECT_DIR$/05-consumer-feign-hystrix-8080/05-consumer-feign-hystrix-8080.iml" />
       <module fileurl="file://$PROJECT_DIR$/05-consumer-hystrix-8080/05-consumer-hystrix-8080.iml" filepath="$PROJECT_DIR$/05-consumer-hystrix-8080/05-consumer-hystrix-8080.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-consumer-config/06-consumer-config.iml" filepath="$PROJECT_DIR$/06-consumer-config/06-consumer-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-consumer-hystrix-8080/06-consumer-hystrix-8080.iml" filepath="$PROJECT_DIR$/06-consumer-hystrix-8080/06-consumer-hystrix-8080.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springcloud.iml" filepath="$PROJECT_DIR$/.idea/springcloud.iml" />
     </modules>

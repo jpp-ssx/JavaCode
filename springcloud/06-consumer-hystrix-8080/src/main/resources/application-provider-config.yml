@@ -1,0 +1,53 @@
+#配置dev环境
+server:
+  port: 8084
+spring:
+  profiles: dev
+  #    指定微服务（提供者）对象暴露的名称
+  application:
+    name: abcmsc-provider-depart
+  jpa:
+    #    应用启动时是否自动建表，默认false
+    generate-ddl: true
+    #    是否在控制台显示sql语句
+    show-sql: true
+    #    设置应用启动时不重新建表
+    hibernate:
+      ddl-auto: none
+  #      配置数据源
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/jpptest02?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: 123456
+eureka:
+  client:
+    service-url: #暴露服务中心地址
+      defaultZone: http://eureka8400.com:8400/eureka
+---
+#配置test环境
+server:
+  port: 8085
+spring:
+  profiles: test
+  #    指定微服务（提供者）对象暴露的名称
+  application:
+    name: abcmsc-provider-depart
+  jpa:
+    #    应用启动时是否自动建表，默认false
+    generate-ddl: true
+    #    是否在控制台显示sql语句
+    show-sql: true
+    #    设置应用启动时不重新建表
+    hibernate:
+      ddl-auto: none
+  #      配置数据源
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/jpptest03?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: 123456
+eureka:
+  client:
+    service-url: #暴露服务中心地址
+      defaultZone: http://eureka8500.com:8500/eureka
